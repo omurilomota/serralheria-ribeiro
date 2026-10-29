@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# build info
+tsconfig.tsbuildinfo
+
+# env
+.env
+.env.local
+.env.*.local
+
+# misc
+.DS_Store
+*.log
+coverage/
+drizzle/meta/_journal.json? 
+.vercel
+
+# Conteúdo interno e artefatos locais (não publicar)
+ROTEIRO-APRESENTACAO.md
+_ops/
+.kilo/
+dist/

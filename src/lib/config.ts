@@ -21,7 +21,7 @@ export const company = {
     "https://www.google.com/maps/search/?api=1&query=Rua+dos+Ipes,+410+-+Pq.+Industrial+04+-+Junqueir%C3%B3polis+-+SP",
   hours: "Segunda a sexta, 7h às 17h · Sábado, 7h às 12h",
   audience: "Residências, comércios e obras",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://serralheria-ribeiro.vercel.app",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://serralheria-ribeiro-web-project.vercel.app",
 } as const;
 
 export type ServiceOption = {

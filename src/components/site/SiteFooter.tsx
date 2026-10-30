@@ -34,6 +34,19 @@ export function SiteFooter() {
           </Link>
         </div>
       </div>
+      <div className="border-t border-paper/10">
+        <div className="container-site py-3 text-center">
+          <a
+            href="https://wa.me/5518998133524"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Falar com Murilo Mota no WhatsApp"
+            className="text-[0.68rem] text-paper/30 transition-colors hover:text-paper/60"
+          >
+            Desenvolvido por Murilo Mota · 55 (18) 99813-3524
+          </a>
+        </div>
+      </div>
     </footer>
   );
 }
